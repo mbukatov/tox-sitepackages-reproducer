@@ -10,6 +10,6 @@ setup(
     author_email='mbukatov@redhat.com',
     license='Apache 2.0',
     url='https://github.com/mbukatov/tox-sitepackages-reproducer',
-    description='Reproducer for tox issue #TODO',
+    description='Reproducer for tox issue #461',
     packages=find_packages(exclude=['tests']),
     )
