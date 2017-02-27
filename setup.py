@@ -12,4 +12,5 @@ setup(
     url='https://github.com/mbukatov/tox-sitepackages-reproducer',
     description='Reproducer for tox issue #461',
     packages=find_packages(exclude=['tests']),
+    install_requires=["lxml", "kernelconfig"],
     )
